@@ -2,7 +2,7 @@ $(document).ready(function()
 {
     console.log('jquery ready!');
 
-	var popmebox = `<div class="popmebox hide" id="popmebox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjDCGpsK5gmoAEw_9zFZHwxEn9xXOWXWk0M6mq1R-N-98-oOzQEfauLZI5dTflEo8qfMQYFq2T6sgZ3GCeR_W9_JnR6tqspYeZ9TnZmCk08SB5VYSB5Y7DwsPHu3n6hzyoerGMbyPtRa2L2fNN2WL1XMBOGCC4Xo7L9ljOHWFmoNQJTzgpOS9oIR2iz=s640" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="380" height="452" alt="Popme" /> <button class='g_url btn btn-success btn-dwn m-2'>KLIK DISINI</button> <br/></div> <button class='g_url popmebox-close-button'>&times;</button></div></div>`;
+	var popmebox = `<div class="popmebox hide" id="popmebox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhozA7jAc-hv2q5vkbNkUNP-PlDC6XI6CbUyYPO4VnjQ8HuCyax0SI342Zgxj2jL1EBN1dmqguISoPOc7pMvkMRy4k1XGh0zelwVfK5bKR02KehQvHL1hosezcBiovfaOsMVyVILEwhy-9EAO29ueUNKZXSRvzy8XCMReQ3-3YX34Aee0a0iNB8bfUd/s452/shp.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="380" height="452" alt="Popme" /> <button class='g_url btn btn-success btn-dwn m-2'>KLIK DISINI</button> <br/></div> <button class='g_url popmebox-close-button'>&times;</button></div></div>`;
 
 	$(document.body).append(popmebox);
 
